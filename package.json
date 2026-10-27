@@ -2,7 +2,10 @@
   "name": "z-friends",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": { "start": "expo start", "android": "expo run:android" },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android"
+  },
   "dependencies": {
     "@expo/vector-icons": "^15.0.2",
     "@react-native-async-storage/async-storage": "2.2.0",
@@ -10,6 +13,7 @@
     "@react-navigation/native": "^7.1.0",
     "@react-navigation/native-stack": "^7.3.0",
     "@supabase/supabase-js": "^2.45.0",
+    "babel-preset-expo": "~54.0.10",
     "expo": "~54.0.0",
     "expo-font": "~14.0.12",
     "expo-image-picker": "~17.0.8",
